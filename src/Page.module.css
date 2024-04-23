@@ -1,4 +1,4 @@
-body{
+/* body{
  margin: 0;
  padding: 0;
 }
@@ -157,10 +157,10 @@ a{
     flex-direction: row-reverse;
   }
 .cont-img {
-    flex: 0 0 40%;
+     flex: 0 0 40%;
 }
 .cont-details {
-    flex: 0 0 50%;       
+     flex: 0 0 50%; 
 }
 .stud-container{
     height: 600px;
@@ -271,4 +271,416 @@ a{
     position: relative;
     left: 120px;
     color: #0d6efd;
- }
+ } */
+
+ body{
+    margin: 0;
+    padding: 0;
+   }
+   .header {
+       background-color:rgb(253, 253, 249);
+       height: 70px;
+       display: flex;
+       justify-content: space-between;
+   }
+   .navbar {
+       font-size: x-large; 
+       margin-left:80px;  
+       margin-top: 20px;
+   }
+   .btn {
+       height: 50px;
+       margin-right: 80px;
+       background-color: rgb(0, 0, 255);
+       border-radius: 10px;
+       margin-top:9px;
+       color: white;font-size: large;
+   }
+   
+   .btn:hover {
+       height: 50px;
+       margin-right: 80px;
+       background-color: rgb(0, 0, 225);
+       border-radius: 5px;
+       margin-top:9px;
+       color: white;font-size: large;
+       cursor: pointer;
+   }
+   .main {
+       background-image:Url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+       height: 700px;
+       position: relative;
+       background-size: cover;
+       overflow: hidden;
+   }
+   .main1{
+       display: flex;
+       justify-content: center;
+       gap: 1.5rem;
+       position: relative;
+       width: 100%;
+       top:120px;
+   }
+   .heading{
+       font-size: 45px;
+       color: white;
+       top: 100px;
+       text-align: center;
+       position: relative;
+       }
+   .email {
+        position: relative;
+        padding: 20px;
+        width: 300px;
+        border-radius: 10px;
+        border: none;
+   }
+   .btn1{
+       position: relative;
+       padding: 25px;
+       background-color: #0d6efd;
+       color: white;
+       border-radius: 10px;
+       border: none;
+       cursor: pointer;
+   }
+   .btn1:hover {
+       position: relative;
+       padding: 25px;
+       background-color: #0d6efd;
+       color: white;
+       border-radius: 10px;
+       border: none;
+       cursor: pointer;
+   }
+   .form-sub{
+      color: white;
+      position: relative;
+      top: 105px;
+      left:150px;
+   }
+   .err-msg{
+           position: absolute;
+          color: white;
+          top: 100%;
+          left: 0;
+          right: 0;
+         text-align: center;
+         padding: 5px;
+         display: inline;
+         margin-right: 100px;
+   }
+   .pag{
+       margin-left:20px;
+   }
+   a{
+       color: white;
+   }
+   .act{
+     margin-bottom: 10px;
+     margin-left: 20px;
+   }
+   .icons{
+       color: blue;
+       font-size: 50px;
+   }
+   .feat-container{
+       background-color: rgb(247, 248, 248);
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       height: 350px;
+       font-size: medium;
+   }
+   .main-container{
+       width:360px;
+       text-align: center;
+   }
+   .descrip{
+       font-size: x-large;
+       color: rgb(51, 50, 50);
+   }
+   .main3{
+       display: flex;
+       align-items: center;
+       justify-content: space-between; 
+      max-width: 100vw;
+      position: relative;
+   }
+   .cont-img{
+       height: 500px;
+       width: 40rem;
+   }
+   .cont-details{
+       width: 50%;
+       background-color: white;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: auto;
+   }
+   .cont-heading{
+       font-size: 35px;
+       margin-right: 49px;
+   }
+   .cont-desc{
+        width: 400px;
+        font-size:20px;
+        position: relative;
+        bottom: 30px;
+   }
+    .main3:nth-child(even) {
+       flex-direction: row-reverse;
+     }
+   .cont-img {
+       /* flex: 0 0 40%; */
+       height: 100%;
+       width: 100%;
+   }
+   .cont-details {
+       flex: 0 0 50%;       
+   }
+   .stud-container{
+       height: 600px;
+       background-color: rgb(247, 248, 248);
+       display: flex; 
+       flex-direction: column;
+       /* justify-content: space-evenly; */
+       align-items: center;
+       gap:1px;
+   }
+   .main4{
+       position: relative;
+       top:140px;
+       /* right: 150px; */
+       /* margin-left: 50px;  */
+   
+   }
+    .span-head{
+       color: rgb(6, 7, 7);
+       text-align: center;
+       position: relative;
+       /* left: 500px;
+       top: 50px; */
+       font-size:35px;
+       /* margin-right: 20px; */
+   } 
+     .stud-img{
+        height: 200px;
+        border-radius: 50%;
+        margin-right: 30px;
+     }
+    .stud-details{
+       width: 250px;
+    } 
+    .main5 {
+       background-image:Url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+       height: 500px;
+       position: relative;
+       background-size: cover;
+       overflow: hidden;
+    }
+    .foot-heading{
+       font-size:35px;
+       color: white;
+       top: 140px;
+       left: 30px;
+       text-align: center;
+       position: relative;
+    }
+     .foot-pag{
+       position: relative;
+       /* left: 400px; */
+    }
+    .first-dir{
+       display: flex;
+       /* flex-direction: column; */
+       gap: 0.25rem;
+       justify-content: center;
+       flex-flow: row wrap;    
+    }
+    .sec-dir{
+       display: flex;
+       align-items: center;
+       font-size: small;
+    }
+    .foot-act{
+       position: relative;
+       /* left: 400px; */
+    }
+    .foot-sub{
+       color: white;
+       position: relative;
+       top: 105px;
+       left:150px;
+    } 
+    .foot-link{
+       position: relative;
+       /* left: 350px; */
+    }
+    .first-div{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: flex-start;
+       gap: 1rem;
+       width: 70%;
+       flex-wrap: nowrap;
+       padding-left: 6rem;
+    }
+    .footer-main {
+       height: 200px;
+       background-color: rgb(247, 248, 248);
+       font-size: 20px;
+       display: flex;
+       gap: 1rem;
+       align-items: center;
+       justify-content: space-between;
+       gap: 2rem;
+    }
+   .nav1{
+       text-decoration: underline;
+       color: #0d6efd;
+       position: relative;
+       /* left: 120px; */
+       cursor: pointer;
+       text-align: center;
+       /* text-overflow: clip;  */
+       flex-flow: row wrap;
+       
+   white-space: nowrap;
+   }
+   .nav1:hover{
+       text-decoration: underline;
+       color: blue;
+       /* position: relative; */
+       /* left: 120px; */
+       cursor: pointer;
+   }
+   .footer-pag{
+        position: relative;
+       top: 30px;
+       right: 340px;
+       font-size: 15px;
+    }
+    .footer-icons{
+       display: flex;
+       gap: 2rem;
+       font-size: 30px;
+       position: relative;
+       /* left: 250px; */
+       color:#0d6efd;
+       /* padding-left: 4rem;
+        */
+        display: flex;
+        align-items: flex-start;
+        width : 30%;
+    }
+    .footer-icons:hover{
+       display: flex;
+       gap: 2rem;
+       font-size: 30px;
+       position: relative;
+       /* left: 250px; */
+       color:blue;
+    }
+    .separator{
+       position: relative;
+       /* left: 120px; */
+       color: #0d6efd;
+    }
+   
+    .span-div{
+       width: 100%;
+       display: flex;
+       /* align-items: ; */
+       justify-content: center ;
+       
+    }
+    .img-container {
+   
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+   
+    .stud-div{
+       display: flex;
+       gap: 100px;
+       align-items: center;
+       justify-content: space-around;
+       margin-top: -90px;
+    }
+   
+    @media  (width < 800px) {
+       .feat-container{
+           display: flex;
+           flex-direction: column;
+           height: auto;
+       }
+       .stud-container{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           height: 85rem;
+           align-items: center;
+           width: 100vw;
+           /* padding: auto; */
+       }
+       .stud-div{
+           height:auto;
+           flex-direction: column;
+           gap: 30px;
+       }
+       .footer-main{
+           display: flex;
+           flex-direction: column;
+           gap: 0.5rem;
+           align-items: center;
+       }
+       .first-div{
+           flex-wrap: wrap;
+           /* flex-shrink: unset; */
+           flex: auto;
+           height: 50px;
+       }
+       .main3{
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           gap: 1rem;
+   
+       }
+       .main3:nth-child(n){
+           flex-direction: column-reverse;
+       }
+       .img-container{
+           height: 85svh;
+           width: 100vw;
+       }
+       .cont-heading{
+           font-size: 35px;
+           /* white-space: nowrap; */
+           /* text-wrap: wrap;*/           
+            word-break: break-all; 
+            text-orientation: sideways;
+            padding: 0;
+       }
+       .cont-details{
+           width: 100svw;
+           height: auto;
+           line-height: 1.6;
+           font-size: larger;
+       }
+       .cont-desc{
+           font-size: 25px;
+       }
+       .sec-dir{
+           margin-top: 0rem;
+       }
+       
+    }

@@ -56,11 +56,11 @@ function Header1 () {
                 <p className={Styles["act"]}>To activate this form, sign up at </p>
                   <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
              </div>
-                    )};
+                    )}
             </div> 
             </div>
-            );       
+            )     
  } 
 
 
-export default Header1;
+export default Header1

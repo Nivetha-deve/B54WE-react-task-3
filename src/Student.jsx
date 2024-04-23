@@ -12,7 +12,7 @@ function Student( {image,name,description} ){
     </div>
     )
 }
-export default Student;
+export default Student
 
 Student.proptype = {
     name:PropTypes.string,

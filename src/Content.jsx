@@ -8,12 +8,17 @@ function Content ( {name,description,image} ) {
         <h2 className={Styles["cont-heading"]}>{name}</h2>
         <p className={Styles["cont-desc"]}>{description}</p>
         </div>
-        <img src={image} alt={name} className={Styles["cont-img"]} />
+        <div
+        className={Styles["img-container"]}
+      >
+        {" "}
+        <img src={image} alt={name} className={Styles["cont-img"]} />{" "}
+      </div>
        </div>
     )
 }
 
-export default Content;
+export default Content
 
 Content.proptype = {
     name:PropTypes.string,

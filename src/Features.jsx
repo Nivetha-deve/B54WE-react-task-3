@@ -8,10 +8,10 @@ function Features ( {icon,name,description}) {
         <h2 className={Styles["name"]}>{name}</h2>
         <p className={Styles["descrip"]}>{description}</p>
          </div>
-    );
+    )
 }
 
-export default Features;
+export default Features
 
 Features.PropType = {
     icon: PropType.string,

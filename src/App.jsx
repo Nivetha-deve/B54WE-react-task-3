@@ -64,28 +64,32 @@ function App() {
   ];
 
   return (
-    <>
+    <div style={{maxwidth:"100vw"}}>
      <Header />
      <Header1 />
      <div className={Styles["feat-container"]}>
      {featuredata.map ((data) => (
       <Features {...data} key={data.index} />
-     ))};
+     ))}
      </div>
      <div className={Styles["Content-container"]}>
        {Contentdata.map ((ele) =>(
         <Content {...ele} key={ele.index}  />
-       ))};
+       ))}
      </div>
      <div className={Styles["stud-container"]}>
-       <span className={Styles["span-head"]}>What people are saying...</span>
+     <div className={Styles["span-div"]}>
+       <h2 className={Styles["span-head"]}>What people are saying...</h2>
+      </div>
+      <div className={ Styles["stud-div"]} >
       {studdata.map ((stud)=> (
         <Student {...stud} key={stud.index} />
-      ))};
+      ))}
+     </div>
      </div>
       <Footer1 />
       <Footer />
-    </>
+    </div>
   )
 }
 
